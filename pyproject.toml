@@ -12,6 +12,8 @@ authors = [
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.6 || ^3.7"
 
 [tool.poetry.dev-dependencies]
+pytest = "^4.5"
+hypothesis = "^4.23"
