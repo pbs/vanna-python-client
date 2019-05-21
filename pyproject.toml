@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vanna"
+version = "0.1.0"
+description = "Simple feature flagging client"
+
+license = "MIT"
+
+authors = [
+    "Yanglin Zhao <hi@yanglinzhao.com>"
+]
+
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
